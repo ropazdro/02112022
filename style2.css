@@ -1,0 +1,55 @@
+#linia1::first-line
+{
+    text-indent: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    background-color: white;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-decoration: underline black;
+}
+#linia1::first-letter
+{
+    font-family: Algerian;
+    font-size: 40px;
+    padding: 5px;
+    margin: 5px;
+    background-color: yellow;
+    border-style:solid 2px red;
+    color:red;
+}
+#linia2::first-line
+{
+    text-indent: 20px;
+    font-family: Jokerman;
+    background-color: white;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-decoration: underline black;
+
+}
+#linia2::first-letter
+{
+    font-family: 'Curlz MT';
+    font-size: 60px;
+    margin:5px;
+    padding:5px;
+    background-color: yellow;
+    border-style: solid 1px red;
+    color:black
+
+}
+#linia3::before
+{
+    content: url(c.png);
+    
+}
+#linia3::after
+{
+    content: "Robert Pazdro 2/11/2022"
+}
+body
+{
+    background-color: #f9f2ec;
+
+}
